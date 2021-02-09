@@ -1,0 +1,2 @@
+# Corkscrew
+Linux dynamic motd
