@@ -3,7 +3,6 @@
 set -e
 
 echo "Welcome to Corkscrew!"
-echo "Get new release at: https://github.com/liyangxia/corkscrew"
 echo
 echo "Logined in $HOSTNAME"
 echo
