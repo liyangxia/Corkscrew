@@ -4,7 +4,7 @@ set -e
 
 echo "Welcome to Corkscrew!"
 echo
-echo "Logined in $HOSTNAME"
+echo "Logined in `cat /etc/os-release | awk -F '"' 'NR==1 {print $2}'`"
 echo
 echo "--- System info ---"
 echo "Kernel Version: `uname -r`"
